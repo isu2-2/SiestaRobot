@@ -5,8 +5,8 @@ from faker import Faker
 from faker.providers import internet
 from telethon import events
 
-from EzilaXBot.Best_Of_EzilaXBot.telethonbasics import is_admin
-from EzilaXBot import telethn as Galaxy
+from SiestaRobot.Best_Of_EzilaXBot.telethonbasics import is_admin
+from SiestaRobot import telethn as Galaxy
 
 @Galaxy.on(events.NewMessage(pattern="/fakegen$"))
 async def hi(event):
