@@ -2,8 +2,8 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from EzilaXBot import dispatcher
-from EzilaXBot.modules.disable import DisableAbleCommandHandler
+from SiestaRobot import dispatcher
+from SiestaRobot.modules.disable import DisableAbleCommandHandler
 
 
 @run_async
