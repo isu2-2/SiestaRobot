@@ -6,6 +6,10 @@ gtts
 speedtest-cli
 beautifulsoup4
 requests
+google_trans_new
+pynewtonmath
+Python_ARQ
+python-arq
 python-telegram-bot==13.10.0
 SQLAlchemy==1.4.29
 psycopg2-binary
