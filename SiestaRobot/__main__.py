@@ -816,7 +816,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Yes Darling ❤️, i am activated!**""",
+                f"""**I am activated Now u are Ready me to use!!**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:
