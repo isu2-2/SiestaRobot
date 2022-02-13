@@ -122,6 +122,7 @@ if ENV:
     CF_API_KEY = os.environ.get("CF_API_KEY", None)
     WELCOME_DELAY_KICK_SEC = os.environ.get("WELCOME_DELAY_KICL_SEC", None)
     BOT_ID = int(os.environ.get("BOT_ID", None))
+    AI_API_KEY = os.environ.get("AI_API_KEY", None)
     ARQ_API_URL = "https://thearq.tech"
     ARQ_API_KEY = ARQ_API
     ERROR_LOGS = os.environ.get("ERROR_LOGS")
@@ -198,6 +199,7 @@ else:
     SUPPORT_CHAT = Config.SUPPORT_CHAT
     SPAMWATCH_SUPPORT_CHAT = Config.SPAMWATCH_SUPPORT_CHAT
     SPAMWATCH_API = Config.SPAMWATCH_API
+    AI_API_KEY = Config.AI_API_KEY
     SESSION_STRING = Config.SESSION_STRING
     INFOPIC = Config.INFOPIC
     BOT_USERNAME = Config.BOT_USERNAME
