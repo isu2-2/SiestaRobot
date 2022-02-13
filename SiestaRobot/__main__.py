@@ -83,10 +83,10 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-SIESTA_IMG = "https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg"
+SIESTA_IMG = "https://telegra.ph/file/122c6f9823106b704da12.png"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
+ You can support the project by contacting @PcGamesAllForFree \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -390,7 +390,7 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text="Credits", callback_data="siesta_credit"),
                     ],
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://github.com/shiinobu/SiestaRobot"),
+                        InlineKeyboardButton(text=gs(chat.id, "source_button"), url="https://github.com/shiinobu/SiestaRobot2"),
                     ],
                     [
                     InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_back"),
@@ -459,8 +459,8 @@ def siesta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/machinaxupport"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/machinaxupdate"),
+                        InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/PcGamesAllForFree"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/PcGamesAllForFree"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
