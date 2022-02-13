@@ -21,7 +21,7 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from EzilaXBot import *
+from SiestaRobot import *
 
 from Sophia.events import register
 
