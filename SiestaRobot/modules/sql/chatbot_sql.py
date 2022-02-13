@@ -1,6 +1,6 @@
 import threading
 
-from EzilaXBot.modules.sql import BASE, SESSION
+from SiestaRobot.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String
 
 
