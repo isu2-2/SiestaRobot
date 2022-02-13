@@ -2,7 +2,7 @@ import os
 
 from telethon.tl.types import *
 
-from EzilaXBot.Best_Of_EzilaXBot.pluginshelper import runcmd
+from SiestaRobot.Best_Of_EzilaXBot.pluginshelper import runcmd
 
 
 async def convert_to_image(event, borg):
