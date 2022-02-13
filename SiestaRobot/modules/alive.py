@@ -9,7 +9,7 @@ from SiestaRobot.events import register
 from SiestaRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/ff2fa22dfa6ae838cc6cd.jpg"
+PHOTO = "https://telegra.ph/file/122c6f9823106b704da12.png"
 
 @register(pattern=("/alive"))
 async def awake(event):
@@ -20,5 +20,5 @@ async def awake(event):
   TEXT += f"💠 **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"💠 **Pyrogram Version :** `{pyrover}` \n\n"
   TEXT += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("Help", "https://t.me/Siestaxbot?start=help"), Button.url("Support", "https://t.me/machinaxsupport")]]
+  BUTTON = [[Button.url("Help", "https://t.me/Siestaxbot?start=help"), Button.url("Support", "https://t.me/PcGamesAllForFree")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
