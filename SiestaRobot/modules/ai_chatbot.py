@@ -2,13 +2,13 @@ import html
 
 from time import sleep, time
 
-import EzilaXBot.modules.sql.chatbot_sql as sql
+import SiestaRobot.modules.sql.chatbot_sql as sql
 from coffeehouse.api import API
 from coffeehouse.exception import CoffeeHouseError as CFError
 from coffeehouse.lydia import LydiaAI
-from EzilaXBot import OWNER_ID, dispatcher
-from EzilaXBot.modules.helper_funcs.chat_status import user_admin
-from EzilaXBot.modules.helper_funcs.filters import CustomFilters
+from SiestaRobot import OWNER_ID, dispatcher
+from SiestaRobot.modules.helper_funcs.chat_status import user_admin
+from SiestaRobot.modules.helper_funcs.filters import CustomFilters
 from telegram import Update
 from telegram.error import BadRequest, RetryAfter, Unauthorized
 from telegram.ext import (CallbackContext, CommandHandler, Filters,
