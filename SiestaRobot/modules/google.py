@@ -23,7 +23,9 @@ from telethon.tl.types import *
 
 from SiestaRobot import *
 
-from Sophia.events import register
+from SiestaRobot.events import register
+from SiestaRobot import telethn as tbot
+from SiestaRobot.modules.language import gs
 
 opener = urllib.request.build_opener()
 useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.157 Mobile Safari/537.36"
