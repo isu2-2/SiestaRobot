@@ -9,13 +9,13 @@ from SiestaRobot.events import register
 from SiestaRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/122c6f9823106b704da12.png"
+PHOTO = "https://telegra.ph/file/df2c8de4abca99da8c2bb.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
   TEXT = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Siesta Robot.** \n\n"
   TEXT += "💠 **I'm Working Properly** \n\n"
-  TEXT += f"💠 **My Master : [Vain](https://t.me/saint_foire)** \n\n"
+  TEXT += f"💠 **My Master : [Anant](https://t.me/Anant_Goel)** \n\n"
   TEXT += f"💠 **Library Version :** `{telever}` \n\n"
   TEXT += f"💠 **Telethon Version :** `{tlhver}` \n\n"
   TEXT += f"💠 **Pyrogram Version :** `{pyrover}` \n\n"
