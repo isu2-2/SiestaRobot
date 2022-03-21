@@ -101,7 +101,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://telegra.ph/file/122c6f9823106b704da12.png",
+            thumb_url="https://telegra.ph/file/df2c8de4abca99da8c2bb.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -134,7 +134,7 @@ async def alive_function(answers):
         InlineQueryResultArticle(
             title="Alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/122c6f9823106b704da12.png",
+            thumb_url="https://telegra.ph/file/df2c8de4abca99da8c2bb.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
