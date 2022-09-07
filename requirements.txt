@@ -11,7 +11,7 @@ pynewtonmath
 Python_ARQ
 python-arq
 python-telegram-bot==13.10.0
-SQLAlchemy==1.4.29
+SQLAlchemy==1.4.41
 psycopg2-binary
 feedparser
 faker
